@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c1faf1a5128e044aea7a3f1083ffbd, type: 3}
+  m_Name: CannonTower
+  m_EditorClassIdentifier: 
+  damage: 50
+  attackTime: 1
+  attackArea: 5
+  slowDownFactor: 1
+  cost: 20
+  upgradeCost: []
+  currentLevel: 0
+  isSpreadTower: 1
+  towerProjectile: {fileID: 4583244809002764866, guid: f815ec0f344a9094085e9a5139a17f52, type: 3}
